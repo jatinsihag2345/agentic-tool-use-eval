@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-tool-use-eval"
+version = "0.1.0"
+description = "A comprehensive benchmark suite evaluating function calling, nested JSON schema compliance, and multi-tool orchestration in LLM agents."
+authors = [{ name = "Jatin Sihag", email = "clyfergamer@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+tool-eval = "tool_eval.cli:main"
