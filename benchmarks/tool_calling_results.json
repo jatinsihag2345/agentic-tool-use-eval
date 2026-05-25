@@ -1,0 +1,34 @@
+{
+  "benchmark": "Agentic-Tool-Use-Eval v1.0",
+  "evaluated_calls": 500,
+  "models": [
+    {
+      "model": "Claude 3.5 Sonnet (20241022)",
+      "schema_compliance": "98.8%",
+      "argument_hallucination_rate": "1.2%",
+      "multi_tool_planning_accuracy": "93.4%",
+      "tool_pass_at_1": "94.2%"
+    },
+    {
+      "model": "GPT-4o (2024-08-06)",
+      "schema_compliance": "97.6%",
+      "argument_hallucination_rate": "2.4%",
+      "multi_tool_planning_accuracy": "91.8%",
+      "tool_pass_at_1": "92.0%"
+    },
+    {
+      "model": "DeepSeek-V3",
+      "schema_compliance": "94.2%",
+      "argument_hallucination_rate": "4.8%",
+      "multi_tool_planning_accuracy": "86.5%",
+      "tool_pass_at_1": "87.1%"
+    },
+    {
+      "model": "Gemini 1.5 Pro",
+      "schema_compliance": "93.0%",
+      "argument_hallucination_rate": "5.6%",
+      "multi_tool_planning_accuracy": "84.2%",
+      "tool_pass_at_1": "85.0%"
+    }
+  ]
+}
